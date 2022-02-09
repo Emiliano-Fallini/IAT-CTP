@@ -41,7 +41,7 @@
     <main class="main__contacto">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-4">
+          <div class="col-4 col-xl-12">
             <div class="mt-4 main__contactoTitle">
               <h3 class="text-center fs-1 text-white fw-bolder main__title">CONTÁCTATE CON NOSOTROS</h3>
             </div>
@@ -50,71 +50,69 @@
       </div>
       <div class="container">
         <form class="main__contactoForm" action="#" method="get"></form>
-            <div class="row justify-content-center mt-4 mb-3">
-              <div class="col-10 mb-3">
+            <div class="row justify-content-center mt-4 mb-3 mb-md-1">
+              <div class="col-10 col-md-5 col-xl-4 mb-3">
                 <div class="main__divName">
                   <label class="mb-2 text-white fs-3" for="name">Nombre</label><br>
-                  <input class="form-control main__impName" type="text" name="nombre-user" id="name">
+                  <input class="form-control form-control-lg main__impName" type="text" name="nombre-user" id="name">
                 </div>
               </div>
-              <div class="col-10">
+              <div class="col-10 col-md-5 col-xl-4">
                 <div class="main__divApellido">      
                   <label class="mb-2 text-white fs-3" for="apellidos">Apellido</label><br>
-                  <input class="form-control main__impApellido" type="text" name="apellidos-user" id="apellidos">
+                  <input class="form-control form-control-lg main__impApellido" type="text" name="apellidos-user" id="apellidos">
                 </div>
               </div>
             </div>
-            <div class="row justify-content-center mb-3">
-              <div class="col-10">
+            <div class="row justify-content-center mb-2">
+              <div class="col-10 col-xl-8">
                 <div class="main__divCoop">
                   <label class="mb-2 text-white fs-3" for="cooperativa">Cooperativa</label><br>
-                  <input class="form-control main__impCoop" type="text" name="cooperativa-user" id="apellidos">
+                  <input class="form-control form-control-lg main__impCoop" type="text" name="cooperativa-user" id="apellidos">
                 </div>           
               </div>
             </div>
             <div class="row justify-content-center mb-3">
-              <div class="col-10">
+                <div class="col-10 col-xl-8">
+                  <div class="text-white fs-5 main__divEtapa">
+                    <label class="mb-1 fs-3 main__impEtapa" for="estado">Etapa</label><br>
+                    <input class="mb-3 me-2 main__impForm ms-3" type="radio" name="urgencia" id="urgencia" value="En formación">En formación<br>
+                    <input class="mb-3 me-2 main__impForm ms-3" type="radio" name="urgencia" id="urgencia" value="Formadada">Formada<br>
+                    <input class="mb-3 me-2 main__impForm ms-3" type="radio" name="urgencia" id="urgencia" value="En construcción">En construcción<br>
+                  </div>                 
+                </div>
+            </div>
+            <div class="row justify-content-center justify-content-md-center mb-3">
+              <div class="col-10 col-md-5 col-xl-4">
                 <div class="main__divTel">
                   <label class="mb-2 text-white fs-3" for="teléfono">Teléfono</label>
-                  <input class="form-control main__impTel" type="number" name="teléfono-usuario" id="teléfono">
+                  <input class="form-control form-control-lg main__impTel" type="number" name="teléfono-usuario" id="teléfono">
                 </div>                
               </div>
-            </div>
-            <div class="row justify-content-center mb-3">
-              <div class="col-10">
+              <div class="col-10 col-md-5 col-xl-4">
                 <div class="main__divMail">
                   <label class="mb-2 text-white fs-3" for="correo">Correo electrónico</label>
-                  <input class="form-control main__impMail" type="email" name="correo-usuario" id="correo">
+                  <input class="form-control form-control-lg main__impMail" type="email" name="correo-usuario" id="correo">
                 </div>           
               </div>
             </div>
-            <div class="row justify-content-center">
-              <div class="col-10">
-                <div class="text-white fs-5 main__divEtapa">
-                  <label class="mb-2 fs-3 main__impEtapa" for="estado">Etapa</label><br>
-                  <input class="mb-3 me-2 main__impForm ms-3" type="radio" name="urgencia" id="urgencia" value="En formación">En formación<br>
-                  <input class="mb-3 me-2 main__impForm ms-3" type="radio" name="urgencia" id="urgencia" value="Formadada">Formada<br>
-                  <input class="mb-3 me-2 main__impForm ms-3" type="radio" name="urgencia" id="urgencia" value="En construcción">En construcción<br>
-                </div>                 
-              </div>
-            </div>
             <div class="row justify-content-center mb-3">
-              <div class="col-10">
+              <div class="col-10 col-xl-8">
                 <div class="main__divMsj">
                   <label class="text-white fs-3 mb-2" for="mensaje">Mensaje</label><br>
-                  <textarea class="form-control main__impMsj" name="mensaje-usuario" id="mensaje" rows="6"></textarea>    
+                  <textarea class="form-control form-control-lg main__impMsj" name="mensaje-usuario" id="mensaje" rows="6"></textarea>    
                 </div>                  
               </div>
             </div>
             <div class="row justify-content-center">
-              <div class="col-10 mb-5">
+              <div class="col-10 mb-5 col-xl-7">
                 <div class="main__divEnv d-flex justify-content-end">
                   <input class="btn btn-success btn-lg main__impEnv" type="submit" value="Enviar">
                 </div>                   
               </div>
             </div>
       </div>
-      <div class="container">
+      <div class="container pb-4">
         <div class="row justify-content-center mb-2">
           <div class="col-10">
             <div class="d-flex justify-content-center mb-2">

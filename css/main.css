@@ -153,6 +153,8 @@ html {
 
 .main__contacto {
   background-image: url("../assets/img/contacto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
