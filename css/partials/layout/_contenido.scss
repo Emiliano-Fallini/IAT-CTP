@@ -1,5 +1,6 @@
 
 
+
 .main{
     margin-top: 10rem;
 
@@ -64,4 +65,63 @@
     background-image: url("../assets/img/contacto.png");
     background-repeat: no-repeat;
     background-size: cover;
+ }
+
+
+.main{
+    margin-top: 10rem;
+
+    &__heroSlogan{
+        font-size: 100%;
+        width: 30%;
+        height: 20%;
+    } }
+
+
+ .main__heroImg{
+         width: 100%;
+         height: 100%;
+        }
+
+
+// .main__somosText{
+//     font-size: 1.2rem;
+// }
+
+
+
+
+
+// CONTACTO
+
+.main__contacto {
+    background-image: url("../Assest/img/contacto.png");
+  }
+
+
+
+.main{
+    margin-top: 10rem;
+
+    &__heroSlogan{
+        font-size: 100%;
+        width: 30%;
+        height: 20%;
+    }
 }
+
+
+ .main__heroImg{
+         width: 100%;
+         height: 100%;
+        }
+
+
+// .main__somosText{
+//     font-size: 1.2rem;
+// }
+
+
+
+
+
