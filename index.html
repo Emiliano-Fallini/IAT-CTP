@@ -10,9 +10,9 @@
 </head>
 <body>
  <header class="header"> <!-- barra de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border border-dark border-end-0 border-start-0 border-top-0 border-bottom-1 pb-0">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html"><img class="ms-5" src="./Assest/img/logo.png" alt="Logo de IAT-CTP"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border border-success border-end-0 border-start-0 border-top-0">
+            <div class="container-xxl pb-0">
+              <a class="navbar-brand" href="./index.html"><img class="ms-5" src="./assets/img/logo.png" alt="Logo de IAT-CTP"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -22,13 +22,13 @@
                     <a class="nav-link active text-dark header__link" aria-current="page" href="./index.html">INICIO</a>
                   </li>
                   <li class="nav-item pe-3 header__item">
-                    <a class="nav-link active text-dark header__link" aria-current="page" href="./secciones/equipo.html">EQUIPO</a>
+                    <a class="nav-link active text-dark header__link" aria-current="page" href="./section/equipo.html">EQUIPO</a>
                   </li>
                   <li class="nav-item pe-3 header__item">
-                    <a class="nav-link active text-dark header__link" aria-current="page" href="./secciones/experiencias.html">EXPERIENCIAS</a>
+                    <a class="nav-link active text-dark header__link" aria-current="page" href="./section/experiencia.html">EXPERIENCIAS</a>
                   </li>
                   <li class="nav-item pe-3 header__item">
-                    <a class="nav-link active text-dark header__link" aria-current="page" href="./secciones/novedades.html">NOVEDADES</a>
+                    <a class="nav-link active text-dark header__link" aria-current="page" href=".//section/novedades.html">NOVEDADES</a>
                   </li>
                   <li class="nav-item pe-3 header__item">
                     <a class="nav-link active text-dark header__link" aria-current="page" href="./section/contacto.html">CONTACTO</a>
@@ -40,43 +40,39 @@
     </header>
     <main class="main"> <!-- imagen principal -->
       <section>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col p-0">
-              <div class="d-flex justify-content-end main__divSlogan">
-                <h1 class="position-absolute text-white fw-bold mt-5 me-5 text-center fs-2 main__heroSlogan">CONSTRUYENDO <br> JUNTOS <br> COMUNIDAD</h1>
-              </div>
-              <div class="main__divHeroImg">
-                <img class="img-fluid main__heroImg" src="./Assest/img/img-nav.png" alt=""></div>
+        <div class="container-xxl">
+          <div class="row main__hero">
+            <div class="col-12 p-0">
+              <img class="img-fluid main__heroImg" src="../assets/img/img-nav.png" alt="">
             </div>
           </div>
         </div>
       </section>
-      <div class="container-fluid">
+      <div class="container-xxl">
         <div class="row mt-4 justify-content-around justify-content-sm-around justify-content-md-around"> <!-- somos -->
-          <div class="col-11 col-sm-11 col-md-11 border-bottom border-2 border-success mb-3">
+          <div class="col-11 border-bottom border-2 border-success mb-3">
             <div class="main__divSeparador">
               <h4 class="text-center fs-1 text-success fw-bold">Quienes somos</h4>
             </div>
           </div>
         </div>
       </div>
-      <section>
-        <div class="container-fluid">
+      <section class="main__somos">
+        <div class="container-xxl">
           <div class="row justify-content-evenly justify-content-sm-evenly justify-content-md-evenly mb-3">
-            <div class="col-10 col-sm-10 col-md-5 p-0  order-1 order-sm-1">
+            <div class="col-11 col-sm-11 col-md-5 col-lg-6 p-0  order-1 order-sm-1">
               <div class="main__divSomosImg">
-                <img class="img-fluid" src="./Assest/img/img-somos.png" alt="Imagen de Somos CTP">
+                <img class="img-fluid" src="./assets/img/img-somos.png" alt="Imagen de Somos CTP">
               </div>
             </div>
             <div class="col-10 col-sm-10 col-md-6 align-self-md-center col-lg-5 order-md-2">
-              <p class="main__somosText lh-lg text-justify ">Somos un Instituo de Asesoramiento técnico de la ciudad de Paysandú creado en el año 2020.  </p>
+              <p class="lh-md fs-5 text-center main__somosText">Somos un Instituto de Asesoramiento técnico de la ciudad de Paysandú creado en el año 2020. Brindamos un servicio integral, dedicado a la formación de Cooperativas de Vivienda, con profesionales altamente formados y especializados a la materia. <br><br> Estamos convencidos que el trabajo es una construcción colectiva entre el instituto y los cooperativista, por lo que nuestro objetivo es el compartir experincias para poder cumplir el sueño de la casa propia. </p>
             </div>
           </div> 
         </div>
       </section>
       <section>
-        <div class="container-fluid bg-success bg-gradient p-3">
+        <div class="container-xxl bg-success bg-gradient p-3">
           <div class="row mt-4 justify-content-around justify-content-sm-around justify-content-md-around"> <!-- somos -->
             <div class="col-11 col-sm-11 col-md-11 border-bottom border-2 border-white mb-3">
               <div class="main__divSeparador">
@@ -84,28 +80,31 @@
               </div>
             </div>
           </div>
-          <div class="row bg-gradient-dark mt-4 flex-wrap justify-content-evenly">
-            <div class="col-10 col-sm-7 col-md-3 col-lg-3 p-0 border border-2 border-white bg-success  main__asesoramientoSocial">
-              <h2 class="text-white text-center pb-2  main__asesoramientoSocialTitle">Asesoramiento <br> Social</h2>
-              <p class="text-white text-center main__asesoramientoSocialText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam a dignissimos natus consectetur aspernatur, harum fugiat praesentium, quam quaerat autem quis laudantium facere blanditiis. Quibusdam ut numquam quod beatae consequatur!</p>
-              <img class="img-fluid d-flex main__asesoramientoSocialImg" src="./Assest/img/img-area-social.png" alt="">
+          <div class="row bg-gradient-dark mt-4 justify-content-evenly">
+            <div class="col-10 col-sm-7 col-md-3 col-lg-3 p-0 border border-2 border-white bg-success mb-4 mb-md-0 main__asesoramientoSocial">
+              <h2 class="text-white text-center pb-2 pt-3  main__asesoramientoSocialTitle">Asesoramiento <br> Social</h2>
+              <p class="text-white text-center fs-5 ps-3 pe-3 main__asesoramientoSocialText">Acompañamos y fortalecemos los valores cooperativos de la ayuda mutua y las decisiones colectivas, generando actividades de integración y participación.</p> 
+              <div class="d-flex justify-content-center"><a class="btn btn-dark btn-lg mb-3 btn-center" href="./section/equipo.html#social">Ver equipo</a></div>
+              <img class="img-fluid d-flex main__asesoramientoSocialImg" src="./assets/img/img-area-social.png" alt="">
+            </div>
+            <div class="col-10 col-sm-7 col-md-3 col-lg-3 p-0 border border-2 border-white bg-success mb-4 mb-md-0">
+              <h2 class="text-white text-center pb-2 pt-3   main__asesoramientoLegalTitle">Asesoramiento <br> Legal-Contable</h2>
+              <p class="text-white text-center fs-5 ps-2 pe-2 pb-3">Ofrecemos las soluciones a todos a los requerimientos legales de la cooperativa como la orientación contable para tomar las mejores decisiosnes económicas.</p>
+              <div class="d-flex justify-content-center"><a class="btn btn-dark btn-lg mb-3 btn-center" href="./section/equipo.html#legal">Ver equipo</a></div>
+              <img class="img-fluid position-relative" src="./assets/img/img-area-legal.png" alt="">
             </div>
             <div class="col-10 col-sm-7 col-md-3 col-lg-3 p-0 border border-2 border-white bg-success">
-              <h2 class="text-white text-center pb-2  main__asesoramientoLegalTitle">Asesoramiento <br> Legal-Contable</h2>
-              <p class="text-white text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam a dignissimos natus consectetur aspernatur, harum fugiat praesentium, quam quaerat autem quis laudantium facere blanditiis. Quibusdam ut numquam quod beatae consequatur!</p>
-              <img class="img-fluid position-relative" src="./Assest/img/img-area-legal.png" alt="">
-            </div>
-            <div class="col-10 col-sm-7 col-md-3 col-lg-3 p-0 border border-2 border-white bg-success">
-              <h2 class="text-white text-center pb-2  main__asesoramientoArqTitle">Asesoramiento <br> Arquitéctonico</h2>
-              <p class="text-white text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam a dignissimos natus consectetur aspernatur, harum fugiat praesentium, quam quaerat autem quis laudantium facere blanditiis. Quibusdam ut numquam quod beatae consequatur!</p>
-              <img class="img-fluid" src="./Assest/img/img-area-arquitectonica.png" alt="">
+              <h2 class="text-white text-center pb-2 pt-3   main__asesoramientoArqTitle">Asesoramiento <br> Arquitéctonico</h2>
+              <p class="text-white text-center fs-5 ps-2 pe-2 pb-3">Asesoramos desde la concepción hasta los últimos detalles con respecto a la construcción de las viviendas cooperativas. Más que una casa será un hogar.</p>
+              <div class="d-flex justify-content-center"><a class="btn btn-dark btn-lg mb-3 btn-center" href="./section/equipo.html#arq">Ver equipo</a></div>
+              <img class="img-fluid" src="./assets/img/img-area-arquitectonica.png" alt="">
             </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-        <div class="container-fluid bg-dark bg-gradient pt-3">
+        <div class="container-xxl bg-dark bg-gradient pt-3">
             <div class="row justify-content-lg-around">
                <div class=" col-sm-6 order-sm-0 col-md-4 order-md-0 col-lg-4 footer__colMarca"> <!-- lista de navegación -->
                     <div class="d-flex justify-content-start">
@@ -133,7 +132,7 @@
                 </div>
                 <div class="order-2 order-sm-2 col-md-4 order-md-1 col-lg-3"> <!-- logo -->
                   <div class="d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start">
-                      <a class="footer__logo" href="Index.html"><img class=" mt-4 footer__imgLogo" src="./Assest/img/logo-footer-blanco.png" alt="logo de la web"></a>
+                      <a class="footer__logo" href="Index.html"><img class=" mt-4 footer__imgLogo" src="./assets/img/logo-footer-blanco.png" alt="logo de la web"></a>
                   </div>
               </div>
                 <div class="order-1 col-sm-6 order-sm-1 col-md-4 col-lg-4 border-start-1 border-top-0 border-end-0 border-bottom-0 border border-white mt-2 mb-2 footer__contContacto"> <!-- contacto -->

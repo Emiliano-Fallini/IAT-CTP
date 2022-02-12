@@ -15,9 +15,6 @@ html {
   .main__heroImg {
     height: 200px !important;
   }
-  .main__somosText {
-    margin-top: 1rem;
-  }
   .footer__link {
     margin-bottom: .8rem !important;
   }
@@ -33,9 +30,6 @@ html {
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  .main__somosText {
-    margin-top: 1rem;
-  }
   .footer__colMarca {
     padding-left: 2rem !important;
   }
@@ -89,6 +83,18 @@ html {
   }
 }
 
+@media screen and (min-width: 992px) {
+  .main__somosText {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main__somosText {
+    font-size: 1.8rem !important;
+  }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
   .footer__imgLogo {
     width: 110%;
@@ -118,7 +124,7 @@ html {
 }
 
 .main {
-  margin-top: 10rem;
+  margin-top: 10rem !important;
 }
 
 .main__heroSlogan {
@@ -127,9 +133,21 @@ html {
   height: 20%;
 }
 
+.main__equipo {
+  margin-top: 12rem !important;
+}
+
+.main__expe {
+  margin-top: 12rem !important;
+}
+
 .main__heroImg {
   width: 100%;
   height: 100%;
+}
+
+.main__heroSloganText {
+  font-size: 5rem;
 }
 
 .main__contacto {
