@@ -16,7 +16,7 @@ html {
     height: 200px !important;
   }
   .main__expeCorusel {
-    height: 220px !important;
+    height: 180px !important;
   }
   .footer__link {
     margin-bottom: .8rem !important;
@@ -141,7 +141,11 @@ html {
 }
 
 .main__expe {
-  margin-top: 12rem !important;
+  margin-top: 10.7rem !important;
+}
+
+.main__nove {
+  margin-top: 11.5rem !important;
 }
 
 .main__heroImg {
