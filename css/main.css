@@ -15,6 +15,9 @@ html {
   .main__heroImg {
     height: 200px !important;
   }
+  .main__expeCorusel {
+    height: 150px !important;
+  }
   .footer__link {
     margin-bottom: .8rem !important;
   }
